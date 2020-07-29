@@ -1,0 +1,103 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px){
+    
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px;}
+    
+    section { padding: 60px 0; }
+    
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-price { font-size:50%; }
+    
+    
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row { padding: 0 4%; }
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav { display: none; }
+    
+    h1 { font-size: 120%; }
+    h2 { font-size: 120%; }
+    
+}
+    
+    .serviceimg {
+    width: 100%; 
+}
+    .ownerprofile {
+        width: 100%;
+        height: 200px;
+}
+    
+    /* ----- menu ----- */
+    
+    .section-menu{
+        margin-top: -30px;
+}
+    
+    .menu-box{
+        width: 100%;
+        margin-top: -15px;
+}
+    .plan-price{
+    font-size: 300%;
+}
+
+    
+    .plan-price span{
+    font-size: 30%;
+}
+    
+.form1 .location {
+        display: none;
+}
+    
+.form1 input[type="text"] {
+    width: 60%;
+}
+    
+    /* ----- colbox -----*/
+    
+    .localities .col {display: none;}
+    
+    .colbox{
+
+     width: 100%;
+     margin-left: 0px;
+}
+    
+    .colbox p{ font-size: 0.8em; }
+    
+    .contact-form { width: 100%; }
+    
+    .meal-photo img{
+    opacity: 10;
+    }
+
+footer {text-align: center;}
+
+  
+        
+
+/* Small phones to small tablets: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+    .contact-form { width: 100%; }
+    section { padding: 25px 0; }
+}
